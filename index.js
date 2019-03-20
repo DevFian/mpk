@@ -27,7 +27,7 @@ setInterval(() => {
 
 music.on('message', async message => {
 
-    let prefix = 'mpa!';
+    let prefix = 'v!';
     let msg = message.content.toLowerCase();
     let args = message.content.slice(prefix.length).trim().split(" ");
     let cmd = args.shift().toLowerCase();
@@ -84,10 +84,8 @@ music.login(process.env.TOKEN);
 music.on("ready", async () => {
 function botStatus() {  
 let status = [
-`mpa!join - mpa!leave`,
-`in ${music.guilds.size} server.`,
-`24H active`,
-`https://discord.gg/3pe7c6h`
+`Nusantara Notif`,
+`https://discord.gg/JD3ca8z`
   ];
   let rstatus = Math.floor(Math.random() * status.length);
   music.user.setActivity(status[rstatus], {Type: 'STREAMING', url:'https://www.twitch.tv/verterid'});
