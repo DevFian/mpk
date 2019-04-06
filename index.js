@@ -82,7 +82,7 @@ const wordAnswer = pokesamwan[Math.floor(Math.random() * pokesamwan.length)]
 music.login(process.env.TOKEN);
 
 music.on("ready", async () => {
-ffunction botStatus() {  
+function botStatus() {  
 let status = [
 `gma!join - gma!leave`,
 `in ${music.guilds.size} server.`,
