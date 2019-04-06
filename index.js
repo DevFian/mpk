@@ -45,7 +45,7 @@ music.on('message', async message => {
         console.log(`${message.author.username} ran the command: ${cmd} on ${message.guild.name}`);
     }
 
-if (message.content === "gma!!join")
+if (message.content === "gma!join")
   {
       message.member.voiceChannel.join()
                     .then(connection => {
