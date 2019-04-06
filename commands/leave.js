@@ -16,8 +16,8 @@ exports.run = async(music, message, args, color,  queue) => {
             console.log("left a channel");
     message.channel.send({embed: new Discord.RichEmbed()
                     .setAuthor(message.author.tag,message.author.avatarURL)
-                    .setDescription(`Leave your voice channel <:test:532594980347183134>`)
-.setColor("RANDOM")
+                    .setDescription(`Keluar dari saluran suara ⛔`)
+.setColor("#0aaaeb")
                    })
         } else {    }
     }
